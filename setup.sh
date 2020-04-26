@@ -1,5 +1,5 @@
-sudo apt install nodejs -y
-sudo curl -L https://npmjs.org/install.sh | sudo sh
+sudo curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get install -y nodejs
 sudo apt-get install git
 git clone https://github.com/kozikkam/azure-performance-tests.git
 cd azure-performance-tests/
