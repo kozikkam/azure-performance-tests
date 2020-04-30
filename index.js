@@ -20,7 +20,7 @@ const getTotalArraySize = (arr) => {
 app.get('/api/documents', async (req, res) => {
   let document = `This is a long text that`
     + ` is going to be multiplied multiple times.`
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 11; i++) {
     // it is necessary to create a new copy,
     // otherwise js optimizes with references
     document = JSON.stringify(document + document)
